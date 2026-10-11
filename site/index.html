@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Android App Development (Level-4) – Learning Hub</title>
+<meta name="description" content="Course modules, solved assessments, oral preparation and three complete Kotlin Android projects, all in one place.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📱</text></svg>">
+<link rel="stylesheet" href="style.css">
+<link id="hljs-theme" rel="stylesheet" href="vendor/hljs-light.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/home"><span class="logo">📱</span><span>AMAD <b>Level-4</b> Hub</span></a>
+  <nav id="nav">
+    <a href="#/home" data-route="home">Home</a>
+    <a href="#/modules" data-route="modules">Modules</a>
+    <a href="#/projects" data-route="projects">Projects</a>
+    <a href="#/assessment" data-route="assessment">Assessment</a>
+  </nav>
+  <div class="tools">
+    <div class="search">
+      <input id="q" type="search" placeholder="Search modules, files, topics…" autocomplete="off" aria-label="Search">
+      <div id="results" class="results" hidden></div>
+    </div>
+    <button id="theme" class="icon-btn" title="Toggle dark mode" aria-label="Toggle dark mode">🌓</button>
+  </div>
+</header>
+
+<main id="view" tabindex="-1"><p class="loading">Loading…</p></main>
+
+<div id="modal" class="modal" hidden>
+  <div class="modal-bar">
+    <strong id="modal-title"></strong>
+    <span class="spacer"></span>
+    <a id="modal-open" class="btn small" target="_blank" rel="noopener">Open in new tab</a>
+    <a id="modal-dl" class="btn small" download>Download</a>
+    <button id="modal-close" class="btn small ghost">Close ✕</button>
+  </div>
+  <iframe id="modal-frame" title="Document viewer"></iframe>
+  <p class="modal-hint">If the PDF does not appear in your browser (some phones can’t embed PDFs), use “Open in new tab” or “Download”.</p>
+</div>
+
+<footer>
+  <p>Built from the repository, so every file here is also in the GitHub repo. Course materials © NSDA, Bangladesh. Shared for learning. Source code is MIT licensed.</p>
+</footer>
+
+<script src="vendor/highlight.min.js"></script>
+<script src="vendor/marked.umd.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

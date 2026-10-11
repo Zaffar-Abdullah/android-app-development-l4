@@ -1,0 +1,360 @@
+{
+  "course": {
+    "title": "Android Mobile Application Development",
+    "level": "Level-4",
+    "provider": "National Skills Development Authority (NSDA), Bangladesh",
+    "framework": "Competency Based Learning Material (CBLM)",
+    "courseUrl": "https://nsda.gov.bd/pages/files/6922da7c933eb65569e04d95",
+    "tagline": "Kotlin, OOP, Android basics, SQLite/Room, REST + Firebase, services and project work. Modules, solved assessments, oral prep and three complete working projects in one place."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "code": "CBLM-OU-ICT-AMAD-01-L4-V1",
+      "title": "Working with Kotlin Basics",
+      "short": "Kotlin Basics",
+      "pages": 70,
+      "file": "course-materials/modules/module-1-kotlin-basics.pdf",
+      "outcomes": [
+        "Create Kotlin data types",
+        "Use Kotlin"
+      ],
+      "keywords": [
+        "variables",
+        "data types",
+        "kotlin",
+        "functions",
+        "control flow"
+      ]
+    },
+    {
+      "id": 2,
+      "code": "CBLM-OU-ICT-AMAD-02-L4-V1",
+      "title": "Working with OOP and Designing Pattern",
+      "short": "OOP & Design Patterns",
+      "pages": 114,
+      "file": "course-materials/modules/module-2-oop-and-design-patterns.pdf",
+      "outcomes": [
+        "Describe class properties, constants and visibility",
+        "Apply encapsulation",
+        "Apply inheritance",
+        "Use polymorphism",
+        "Use design pattern"
+      ],
+      "keywords": [
+        "class",
+        "object",
+        "inheritance",
+        "polymorphism",
+        "encapsulation",
+        "mvvm",
+        "singleton"
+      ]
+    },
+    {
+      "id": 3,
+      "code": "CBLM-OU-ICT-AMAD-03-L4-V1",
+      "title": "Working with Android Basic",
+      "short": "Android Basics",
+      "pages": 121,
+      "file": "course-materials/modules/module-3-android-basics.pdf",
+      "outcomes": [
+        "Install and set up the Android development environment",
+        "Use main building blocks",
+        "Create Android user interface"
+      ],
+      "keywords": [
+        "android studio",
+        "activity",
+        "intent",
+        "layout",
+        "recyclerview",
+        "ui"
+      ]
+    },
+    {
+      "id": 4,
+      "code": "CBLM-OU-ICT-AMAD-04-L4-V1",
+      "title": "Managing Database",
+      "short": "Managing Database",
+      "pages": 94,
+      "file": "course-materials/modules/module-4-managing-database.pdf",
+      "outcomes": [
+        "Use preferences and file system",
+        "Work with basic database",
+        "Operate SQLite database",
+        "Use lists and adapters",
+        "Use content providers"
+      ],
+      "keywords": [
+        "sqlite",
+        "room",
+        "sharedpreferences",
+        "adapter",
+        "content provider",
+        "crud"
+      ]
+    },
+    {
+      "id": 5,
+      "code": "CBLM-OU-ICT-AMAD-05-L4-V1",
+      "title": "Performing Application Programming Interface Integration",
+      "short": "API Integration",
+      "pages": 94,
+      "file": "course-materials/modules/module-5-api-integration.pdf",
+      "outcomes": [
+        "Use API",
+        "Implement custom (REST) API",
+        "Implement Firebase API",
+        "Implement Firebase Cloud Messaging (FCM)"
+      ],
+      "keywords": [
+        "retrofit",
+        "rest",
+        "json",
+        "firebase",
+        "fcm",
+        "authentication",
+        "firestore"
+      ]
+    },
+    {
+      "id": 6,
+      "code": "CBLM-OU-ICT-AMAD-06-L4-V1",
+      "title": "Implementing Background Service and Application Deployment",
+      "short": "Services & Deployment",
+      "pages": 86,
+      "file": "course-materials/modules/module-6-background-service-and-deployment.pdf",
+      "outcomes": [
+        "Implement broadcast receivers",
+        "Start a service",
+        "Perform Test Driven Development (TDD)",
+        "Introduce application signing and deployment"
+      ],
+      "keywords": [
+        "service",
+        "broadcast receiver",
+        "tdd",
+        "signing",
+        "apk",
+        "play store"
+      ]
+    },
+    {
+      "id": 7,
+      "code": "CBLM-OU-ICT-AMAD-07-L4-V1",
+      "title": "Performing Project Work with Android",
+      "short": "Project Work",
+      "pages": 109,
+      "file": "course-materials/modules/module-7-project-work.pdf",
+      "outcomes": [
+        "Interpret project management basics",
+        "Develop an application in Android",
+        "Develop user story",
+        "Create project presentation",
+        "Develop awareness about rights"
+      ],
+      "keywords": [
+        "project",
+        "user story",
+        "presentation",
+        "agile"
+      ]
+    }
+  ],
+  "assessment": [
+    {
+      "id": "solved-bank",
+      "title": "Solved Assessment Bank",
+      "file": "assessment-prep/solved-assessment-bank.pdf",
+      "pages": 7,
+      "summary": "3 practical jobs, 37 solved MCQs, 14 solved short-answer questions and 10 solved oral questions with the standard working procedure and tools list.",
+      "tags": [
+        "Practical",
+        "MCQ",
+        "Short answer",
+        "Oral"
+      ]
+    },
+    {
+      "id": "oral-prep",
+      "title": "Oral Preparation (English + বাংলা)",
+      "file": "assessment-prep/oral-preparation.pdf",
+      "pages": 19,
+      "summary": "Module-wise oral questions with an easy answer, a Bangla answer and a real-life example for each one. Covers all seven units of competency.",
+      "tags": [
+        "Oral",
+        "Bilingual",
+        "Revision"
+      ]
+    },
+    {
+      "id": "job-1-spec",
+      "title": "Job 1 Specification Sheet",
+      "file": "assessment-prep/job-specifications/job-1-specification.pdf",
+      "pages": 1,
+      "summary": "REST API consumer: ProductActivity, RecyclerView, Retrofit, image loading, connectivity handling and retry.",
+      "tags": [
+        "Spec",
+        "1 hour"
+      ]
+    },
+    {
+      "id": "job-2-spec",
+      "title": "Job 2 Specification Sheet",
+      "file": "assessment-prep/job-specifications/job-2-specification.pdf",
+      "pages": 2,
+      "summary": "User profile registration with a local SQLite database, full CRUD and MVVM.",
+      "tags": [
+        "Spec",
+        "1 hour"
+      ]
+    },
+    {
+      "id": "job-3-spec",
+      "title": "Job 3 Specification Sheet",
+      "file": "assessment-prep/job-specifications/job-3-specification.pdf",
+      "pages": 3,
+      "summary": "Location sharing app with Firebase Authentication, Cloud Firestore and Google Maps markers.",
+      "tags": [
+        "Spec",
+        "2 hours"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "job-1-product-listing-rest",
+      "job": 1,
+      "title": "Product Listing App (REST API)",
+      "time": "1 hour",
+      "summary": "Fetches products from a public REST API with Retrofit, shows them in a RecyclerView with images, and handles loading, error and retry states.",
+      "stack": [
+        "Kotlin",
+        "Retrofit",
+        "Gson",
+        "Glide",
+        "RecyclerView",
+        "CardView"
+      ],
+      "related": [
+        1,
+        3,
+        5
+      ],
+      "features": [
+        "ProductActivity with a RecyclerView and a custom item layout",
+        "Retrofit + Gson converter consuming https://api.escuelajs.co/api/v1/products",
+        "Glide for image loading and caching",
+        "Progress bar while loading, error panel with a working Retry button when the call fails (for example no internet)",
+        "INTERNET permission declared in the manifest"
+      ],
+      "run": [
+        "Open the folder projects/job-1-product-listing-rest in Android Studio.",
+        "Let Gradle sync finish (Android Studio creates local.properties for you).",
+        "Run on an emulator or a real device with internet access.",
+        "Turn on airplane mode and relaunch to see the error state, then turn it off and tap Retry."
+      ],
+      "setup": null
+    },
+    {
+      "slug": "job-2-user-profile-sqlite",
+      "job": 2,
+      "title": "User Profile Registration (SQLite / Room)",
+      "time": "1 hour",
+      "summary": "Local profile manager with a welcome screen, profile list, add, view, update and delete, built with MVVM, LiveData and Room (SQLite).",
+      "stack": [
+        "Kotlin",
+        "Room (SQLite)",
+        "KSP",
+        "ViewModel",
+        "LiveData",
+        "ViewBinding"
+      ],
+      "related": [
+        2,
+        3,
+        4
+      ],
+      "features": [
+        "WelcomeActivity as launcher, then ProfileListActivity with all saved profiles",
+        "AddProfileActivity: name, email, date of birth, district, mobile",
+        "SingleProfileActivity to view a profile, with Edit and Delete buttons",
+        "Room database (SQLite) with Entity, DAO (insert, update, delete, queries), Repository and ViewModel",
+        "Data stays on the device, no internet needed"
+      ],
+      "run": [
+        "Open the folder projects/job-2-user-profile-sqlite in Android Studio.",
+        "Sync Gradle, then run on an emulator or device.",
+        "Add a profile, open it from the list, then try update and delete."
+      ],
+      "setup": null
+    },
+    {
+      "slug": "job-3-location-sharing-firebase",
+      "job": 3,
+      "title": "Location Sharing App (Firebase + Google Maps)",
+      "time": "2 hours",
+      "summary": "Users sign up, share their live location, see everyone in a list and on Google Maps, and edit their own profile. Firebase Auth and Cloud Firestore with MVVM.",
+      "stack": [
+        "Kotlin",
+        "Firebase Auth",
+        "Cloud Firestore",
+        "Google Maps SDK",
+        "Fused Location",
+        "ViewModel",
+        "LiveData"
+      ],
+      "related": [
+        5,
+        6,
+        7
+      ],
+      "features": [
+        "AuthActivity: email and password sign up and login with Firebase Authentication",
+        "Location permission flow and live updates with FusedLocationProviderClient, saved to Cloud Firestore",
+        "FriendListActivity: all users in a RecyclerView, with an options menu (My Profile, Show users on Map, Logout)",
+        "GoogleMapActivity: a marker for every user (name as title, phone in the info window), your own marker in green",
+        "MyProfileActivity to update your display name and phone number"
+      ],
+      "run": [
+        "Open the folder projects/job-3-location-sharing-firebase in Android Studio.",
+        "Create your own Firebase project and add an Android app with package name com.example.locationsharingapp.",
+        "Enable Email/Password sign-in and Cloud Firestore, then download google-services.json into the app/ folder.",
+        "Create a Google Maps API key (Maps SDK for Android) and add MAPS_API_KEY=your_key to local.properties.",
+        "Sync Gradle and run on a device or an emulator with Google Play services."
+      ],
+      "setup": "This project needs two private values that are intentionally NOT in the repository: your own google-services.json (use app/google-services.json.example as a guide) and a MAPS_API_KEY line in local.properties. Both files are git-ignored."
+    }
+  ],
+  "learningPath": [
+    {
+      "step": "Kotlin Basics",
+      "module": 1
+    },
+    {
+      "step": "OOP & Patterns",
+      "module": 2
+    },
+    {
+      "step": "Android Basics",
+      "module": 3
+    },
+    {
+      "step": "Database",
+      "module": 4
+    },
+    {
+      "step": "API Integration",
+      "module": 5
+    },
+    {
+      "step": "Services & Deploy",
+      "module": 6
+    },
+    {
+      "step": "Project Work",
+      "module": 7
+    }
+  ]
+}

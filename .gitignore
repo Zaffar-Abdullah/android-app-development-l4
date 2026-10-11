@@ -1,0 +1,20 @@
+# Build output / IDE
+build/
+.gradle/
+.idea/
+*.iml
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+.DS_Store
+
+# Private values: never commit these
+local.properties
+google-services.json
+*.jks
+*.keystore
+.env
+
+# Generated static site (rebuilt by scripts/build_site.py or GitHub Actions)
+_site/
