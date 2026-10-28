@@ -1,0 +1,803 @@
+{
+ "job-1-product-listing-rest": [
+  {
+   "path": ".gitignore",
+   "size": 225,
+   "text": true
+  },
+  {
+   "path": "README.md",
+   "size": 2142,
+   "text": true
+  },
+  {
+   "path": "app/.gitignore",
+   "size": 6,
+   "text": true
+  },
+  {
+   "path": "app/build.gradle.kts",
+   "size": 1294,
+   "text": true
+  },
+  {
+   "path": "app/src/androidTest/java/com/example/zaffar_1227_rest01/ExampleInstrumentedTest.kt",
+   "size": 687,
+   "text": true
+  },
+  {
+   "path": "app/src/main/AndroidManifest.xml",
+   "size": 1039,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/zaffar_1227_rest01/ProductActivity.kt",
+   "size": 2461,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/zaffar_1227_rest01/ProductAdapter.kt",
+   "size": 1637,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/zaffar_1227_rest01/api/ApiService.kt",
+   "size": 235,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/zaffar_1227_rest01/api/RetrofitInstance.kt",
+   "size": 448,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/zaffar_1227_rest01/models/Category.kt",
+   "size": 131,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/zaffar_1227_rest01/models/Product.kt",
+   "size": 218,
+   "text": true
+  },
+  {
+   "path": "app/src/main/keepRules/rules.keep",
+   "size": 418,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/drawable/ic_launcher_background.xml",
+   "size": 5606,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+   "size": 1702,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/layout/activity_product.xml",
+   "size": 2419,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/layout/item_product.xml",
+   "size": 2353,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+   "size": 343,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+   "size": 343,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+   "size": 1404,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+   "size": 2898,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+   "size": 982,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+   "size": 1772,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+   "size": 1900,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+   "size": 3918,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+   "size": 2884,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+   "size": 5914,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+   "size": 3844,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+   "size": 7778,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/values/colors.xml",
+   "size": 342,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/values/strings.xml",
+   "size": 80,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/values/themes.xml",
+   "size": 545,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/values-night/themes.xml",
+   "size": 338,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/xml/backup_rules.xml",
+   "size": 478,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/xml/data_extraction_rules.xml",
+   "size": 551,
+   "text": true
+  },
+  {
+   "path": "app/src/test/java/com/example/zaffar_1227_rest01/ExampleUnitTest.kt",
+   "size": 354,
+   "text": true
+  },
+  {
+   "path": "build.gradle.kts",
+   "size": 167,
+   "text": true
+  },
+  {
+   "path": "docs/ai-agent-prompt.md",
+   "size": 5292,
+   "text": true
+  },
+  {
+   "path": "docs/specification.pdf",
+   "size": 18954,
+   "text": false
+  },
+  {
+   "path": "gradle/gradle-daemon-jvm.properties",
+   "size": 1138,
+   "text": true
+  },
+  {
+   "path": "gradle/libs.versions.toml",
+   "size": 1679,
+   "text": true
+  },
+  {
+   "path": "gradle/wrapper/gradle-wrapper.jar",
+   "size": 45457,
+   "text": false
+  },
+  {
+   "path": "gradle/wrapper/gradle-wrapper.properties",
+   "size": 369,
+   "text": true
+  },
+  {
+   "path": "gradle.properties",
+   "size": 1120,
+   "text": true
+  },
+  {
+   "path": "gradlew",
+   "size": 8728,
+   "text": true
+  },
+  {
+   "path": "gradlew.bat",
+   "size": 2843,
+   "text": false
+  },
+  {
+   "path": "settings.gradle.kts",
+   "size": 629,
+   "text": true
+  }
+ ],
+ "job-2-user-profile-sqlite": [
+  {
+   "path": ".gitignore",
+   "size": 225,
+   "text": true
+  },
+  {
+   "path": "README.md",
+   "size": 1774,
+   "text": true
+  },
+  {
+   "path": "app/.gitignore",
+   "size": 6,
+   "text": true
+  },
+  {
+   "path": "app/build.gradle.kts",
+   "size": 1470,
+   "text": true
+  },
+  {
+   "path": "app/src/androidTest/java/com/example/userprofileregistration/ExampleInstrumentedTest.kt",
+   "size": 697,
+   "text": true
+  },
+  {
+   "path": "app/src/main/AndroidManifest.xml",
+   "size": 1096,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/userprofileregistration/AddProfileActivity.kt",
+   "size": 2400,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/userprofileregistration/ProfileAdapter.kt",
+   "size": 1492,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/userprofileregistration/ProfileListActivity.kt",
+   "size": 1365,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/userprofileregistration/SingleProfileActivity.kt",
+   "size": 1877,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/userprofileregistration/UserDatabase.kt",
+   "size": 848,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/userprofileregistration/UserProfile.kt",
+   "size": 342,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/userprofileregistration/UserProfileDao.kt",
+   "size": 497,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/userprofileregistration/UserProfileRepository.kt",
+   "size": 798,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/userprofileregistration/UserProfileViewModel.kt",
+   "size": 934,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/userprofileregistration/WelcomeActivity.kt",
+   "size": 677,
+   "text": true
+  },
+  {
+   "path": "app/src/main/keepRules/rules.keep",
+   "size": 418,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/drawable/ic_launcher_background.xml",
+   "size": 5606,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+   "size": 1702,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/layout/activity_add_profile.xml",
+   "size": 3864,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/layout/activity_main.xml",
+   "size": 805,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/layout/activity_profile_list.xml",
+   "size": 2055,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/layout/activity_single_profile.xml",
+   "size": 3367,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/layout/activity_welcome.xml",
+   "size": 960,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/layout/item_profile.xml",
+   "size": 1235,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+   "size": 343,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+   "size": 343,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+   "size": 1404,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+   "size": 2898,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+   "size": 982,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+   "size": 1772,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+   "size": 1900,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+   "size": 3918,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+   "size": 2884,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+   "size": 5914,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+   "size": 3844,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+   "size": 7778,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/values/colors.xml",
+   "size": 401,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/values/strings.xml",
+   "size": 85,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/values/themes.xml",
+   "size": 576,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/values-night/themes.xml",
+   "size": 343,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/xml/backup_rules.xml",
+   "size": 478,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/xml/data_extraction_rules.xml",
+   "size": 551,
+   "text": true
+  },
+  {
+   "path": "app/src/test/java/com/example/userprofileregistration/ExampleUnitTest.kt",
+   "size": 359,
+   "text": true
+  },
+  {
+   "path": "build.gradle.kts",
+   "size": 207,
+   "text": true
+  },
+  {
+   "path": "docs/ai-agent-prompt.md",
+   "size": 5929,
+   "text": true
+  },
+  {
+   "path": "docs/specification.pdf",
+   "size": 21266,
+   "text": false
+  },
+  {
+   "path": "gradle/gradle-daemon-jvm.properties",
+   "size": 1138,
+   "text": true
+  },
+  {
+   "path": "gradle/libs.versions.toml",
+   "size": 1766,
+   "text": true
+  },
+  {
+   "path": "gradle/wrapper/gradle-wrapper.jar",
+   "size": 45457,
+   "text": false
+  },
+  {
+   "path": "gradle/wrapper/gradle-wrapper.properties",
+   "size": 369,
+   "text": true
+  },
+  {
+   "path": "gradle.properties",
+   "size": 1160,
+   "text": true
+  },
+  {
+   "path": "gradlew",
+   "size": 8728,
+   "text": true
+  },
+  {
+   "path": "gradlew.bat",
+   "size": 2843,
+   "text": false
+  },
+  {
+   "path": "settings.gradle.kts",
+   "size": 634,
+   "text": true
+  }
+ ],
+ "job-3-location-sharing-firebase": [
+  {
+   "path": ".gitignore",
+   "size": 296,
+   "text": true
+  },
+  {
+   "path": "README.md",
+   "size": 3384,
+   "text": true
+  },
+  {
+   "path": "app/.gitignore",
+   "size": 6,
+   "text": true
+  },
+  {
+   "path": "app/build.gradle.kts",
+   "size": 1867,
+   "text": true
+  },
+  {
+   "path": "app/google-services.json.example",
+   "size": 536,
+   "text": true
+  },
+  {
+   "path": "app/src/androidTest/java/com/example/locationsharingapp/ExampleInstrumentedTest.kt",
+   "size": 687,
+   "text": true
+  },
+  {
+   "path": "app/src/main/AndroidManifest.xml",
+   "size": 1501,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/locationsharingapp/model/AppUser.kt",
+   "size": 264,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/locationsharingapp/repository/UserRepository.kt",
+   "size": 3306,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/locationsharingapp/ui/AuthActivity.kt",
+   "size": 3284,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/locationsharingapp/ui/FriendListActivity.kt",
+   "size": 4350,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/locationsharingapp/ui/GoogleMapActivity.kt",
+   "size": 2850,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/locationsharingapp/ui/MyProfileActivity.kt",
+   "size": 1936,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/locationsharingapp/ui/UserAdapter.kt",
+   "size": 1661,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/locationsharingapp/viewmodel/AuthViewModel.kt",
+   "size": 1567,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/locationsharingapp/viewmodel/FriendListViewModel.kt",
+   "size": 654,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/locationsharingapp/viewmodel/MapViewModel.kt",
+   "size": 591,
+   "text": true
+  },
+  {
+   "path": "app/src/main/java/com/example/locationsharingapp/viewmodel/ProfileViewModel.kt",
+   "size": 1291,
+   "text": true
+  },
+  {
+   "path": "app/src/main/keepRules/rules.keep",
+   "size": 418,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/drawable/ic_launcher_background.xml",
+   "size": 5606,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+   "size": 1702,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/layout/activity_auth.xml",
+   "size": 5433,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/layout/activity_friend_list.xml",
+   "size": 884,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/layout/activity_google_map.xml",
+   "size": 377,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/layout/activity_my_profile.xml",
+   "size": 4022,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/layout/item_user.xml",
+   "size": 2116,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/menu/options_menu.xml",
+   "size": 527,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+   "size": 343,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+   "size": 343,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+   "size": 1404,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+   "size": 2898,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+   "size": 982,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+   "size": 1772,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+   "size": 1900,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+   "size": 3918,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+   "size": 2884,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+   "size": 5914,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+   "size": 3844,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+   "size": 7778,
+   "text": false
+  },
+  {
+   "path": "app/src/main/res/values/colors.xml",
+   "size": 386,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/values/strings.xml",
+   "size": 80,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/values/themes.xml",
+   "size": 617,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/values-night/themes.xml",
+   "size": 338,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/xml/backup_rules.xml",
+   "size": 478,
+   "text": true
+  },
+  {
+   "path": "app/src/main/res/xml/data_extraction_rules.xml",
+   "size": 551,
+   "text": true
+  },
+  {
+   "path": "app/src/test/java/com/example/locationsharingapp/ExampleUnitTest.kt",
+   "size": 354,
+   "text": true
+  },
+  {
+   "path": "build.gradle.kts",
+   "size": 230,
+   "text": true
+  },
+  {
+   "path": "docs/ai-agent-prompt.md",
+   "size": 7031,
+   "text": true
+  },
+  {
+   "path": "docs/specification.pdf",
+   "size": 26462,
+   "text": false
+  },
+  {
+   "path": "gradle/gradle-daemon-jvm.properties",
+   "size": 1138,
+   "text": true
+  },
+  {
+   "path": "gradle/libs.versions.toml",
+   "size": 2243,
+   "text": true
+  },
+  {
+   "path": "gradle/wrapper/gradle-wrapper.jar",
+   "size": 45457,
+   "text": false
+  },
+  {
+   "path": "gradle/wrapper/gradle-wrapper.properties",
+   "size": 369,
+   "text": true
+  },
+  {
+   "path": "gradle.properties",
+   "size": 1120,
+   "text": true
+  },
+  {
+   "path": "gradlew",
+   "size": 8728,
+   "text": true
+  },
+  {
+   "path": "gradlew.bat",
+   "size": 2843,
+   "text": false
+  },
+  {
+   "path": "settings.gradle.kts",
+   "size": 629,
+   "text": true
+  }
+ ]
+}

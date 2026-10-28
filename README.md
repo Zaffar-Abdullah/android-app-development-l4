@@ -28,7 +28,7 @@ This repository collects everything I used while completing the **Android Mobile
 | 📚 [`course-materials/modules`](course-materials/modules) | The 7 CBLM modules as PDFs (688 pages): Kotlin, OOP & design patterns, Android basics, databases, API integration, services & deployment, project work |
 | 🎯 [`assessment-prep`](assessment-prep) | Solved assessment bank (jobs, MCQs, short answers, oral), bilingual oral preparation (English + বাংলা), and the three job specification sheets |
 | 🛠 [`projects`](projects) | Three working Android Studio projects with their specification and the AI-agent prompt used to scaffold each one |
-| 🌐 [`site`](site) + [`scripts`](scripts) | Source of the interactive learning hub (GitHub Pages) |
+| 🌐 React Application | Interactive learning hub built with React, Vite, and TypeScript |
 
 ## Learning path
 
