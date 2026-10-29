@@ -3,11 +3,42 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Android App Development (Level-4) – Learning Hub</title>
+  <script>
+    (function () {
+      try {
+        var nativeFetch = window.fetch ? window.fetch.bind(window) : undefined;
+        if (typeof Window !== 'undefined' && Window.prototype) {
+          var protoDesc = Object.getOwnPropertyDescriptor(Window.prototype, 'fetch');
+          if (protoDesc && protoDesc.get && !protoDesc.set && protoDesc.configurable) {
+            Object.defineProperty(Window.prototype, 'fetch', {
+              configurable: true,
+              enumerable: true,
+              get: function () {
+                return nativeFetch || protoDesc.get.call(this);
+              },
+              set: function (fn) {
+                nativeFetch = fn;
+              }
+            });
+          }
+        }
+        var winDesc = Object.getOwnPropertyDescriptor(window, 'fetch');
+        if (!winDesc || (winDesc.get && !winDesc.set && winDesc.configurable)) {
+          Object.defineProperty(window, 'fetch', {
+            configurable: true,
+            enumerable: true,
+            writable: true,
+            value: nativeFetch
+          });
+        }
+      } catch (_) {}
+    })();
+  </script>
+  <title>Android Mobile Application Development (Level-4)</title>
   <meta name="description" content="Course modules, solved assessments, oral preparation and three complete Kotlin Android projects, all in one place.">
-  <meta property="og:title" content="Android App Development (Level-4) – Learning Hub">
+  <meta property="og:title" content="Android Mobile Application Development (Level-4)">
   <meta property="og:description" content="Course modules, solved assessments, oral preparation and three complete Kotlin Android projects, all in one place.">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📱</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%230d9f6e%22/></svg>">
 </head>
 <body>
   <div id="root"></div>

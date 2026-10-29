@@ -1,9 +1,11 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { HUB_DATA } from './data/content';
 import { TREE_DATA } from './data/tree';
+import { PROJECT_FILES } from './data/files';
 import { SearchHit, TreeEntry, TreeNode } from './types';
 import hljs from 'highlight.js';
 import { marked } from 'marked';
+import { LiquidChromeToggle } from './components/LiquidChromeToggle';
 
 // Helper for local storage
 const getStorage = <T,>(key: string, def: T): T => {
@@ -251,6 +253,12 @@ export function App() {
     if (!activeSlug) return;
 
     if (activeTab === 'prompt') {
+      const bundledPrompt = PROJECT_FILES[activeSlug]?.['docs/ai-agent-prompt.md'];
+      if (bundledPrompt !== undefined) {
+        setPromptContent(bundledPrompt);
+        setPromptLoading(false);
+        return;
+      }
       setPromptLoading(true);
       fetch(projUrl(activeSlug, 'docs/ai-agent-prompt.md'))
         .then(res => {
@@ -279,6 +287,14 @@ export function App() {
     }
 
     if (!target) return;
+
+    const bundledContent = PROJECT_FILES[activeSlug]?.[target];
+    if (bundledContent !== undefined) {
+      setActiveFileContent(bundledContent);
+      setActiveFileError(false);
+      setActiveFileLoading(false);
+      return;
+    }
 
     setActiveFileLoading(true);
     setActiveFileError(false);
@@ -365,9 +381,8 @@ export function App() {
             navigate('#/home');
           }}
         >
-          <span className="logo">📱</span>
           <span>
-            AMAD <b>Level-4</b> Hub
+            Android Mobile Application Development <b>Level-4</b>
           </span>
         </a>
 
@@ -451,15 +466,7 @@ export function App() {
               </div>
             )}
           </div>
-          <button
-            id="theme"
-            className="icon-btn"
-            title="Toggle dark mode"
-            aria-label="Toggle dark mode"
-            onClick={toggleTheme}
-          >
-            {theme === 'dark' ? '☀️' : '🌓'}
-          </button>
+          <LiquidChromeToggle theme={theme} onToggle={toggleTheme} />
         </div>
       </header>
 
@@ -587,7 +594,7 @@ export function App() {
             </div>
 
             <div className="section-title">
-              <h2>How to use this hub</h2>
+              <h2>How to use this course</h2>
             </div>
             <div className="grid">
               <div className="card">
