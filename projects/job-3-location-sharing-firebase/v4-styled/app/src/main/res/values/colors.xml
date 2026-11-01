@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Vibrant Aurora Palette (Shaded & Colorful) -->
+    <color name="bg_dark">#0F0C29</color> <!-- Deep shade -->
+    <color name="bg_surface">#1A1648</color>
+    <color name="card_bg">#241E69</color>
+    <color name="card_stroke">#3D3490</color>
+
+    <!-- Brand Colors - Colorful & Vibrant -->
+    <color name="primary">#FF0080</color> <!-- Neon Pink -->
+    <color name="primary_dark">#B8005C</color>
+    <color name="primary_light">#FF66B2</color>
+    <color name="accent">#00F2FE</color> <!-- Cyan/Aqua -->
+    <color name="accent_dark">#00C9D4</color>
+    <color name="secondary">#7DF9FF</color> <!-- Electric Blue -->
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B2B1FF</color>
+    <color name="text_muted">#6E6CB3</color>
+
+    <!-- Input Colors -->
+    <color name="input_bg">#13103D</color>
+    <color name="input_stroke">#3D3490</color>
+
+    <!-- Status Colors -->
+    <color name="accent_green">#39FF14</color> <!-- Neon Green -->
+    <color name="accent_red">#FF3131</color>
+    <color name="accent_amber">#FFD700</color>
+
+    <!-- Utility -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="overlay">#A6000000</color>
+</resources>

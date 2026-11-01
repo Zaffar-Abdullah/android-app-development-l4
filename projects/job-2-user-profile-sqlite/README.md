@@ -1,41 +1,60 @@
-# Job 2: User Profile Registration (SQLite / Room)
+# Job 2: User Profile Registration
 
-A local profile manager. Users add their profile, see everyone in a list, open a profile, then edit or delete it. Data is stored on the device in a SQLite database through **Room**.
+**Local database and CRUD** &middot; assessment time: 1 hour
 
-| | |
-|---|---|
-| **Time in assessment** | 1 hour |
-| **Language / UI** | Kotlin, XML layouts, ViewBinding |
-| **Architecture** | MVVM: Entity → DAO → Repository → ViewModel (LiveData) → Activity |
-| **Libraries** | Room (runtime, ktx, compiler via KSP), Lifecycle ViewModel / LiveData |
-| **Related modules** | 2 OOP & patterns, 3 Android basics, 4 Managing database |
+A local profile manager: welcome screen, profile list, add, view, update and delete. Data stays on the device in SQLite, organised with MVVM.
 
-## Features
-- `WelcomeActivity` (launcher) with a button to the profile list
-- `ProfileListActivity`: RecyclerView of all saved profiles
-- `AddProfileActivity`: name, email, date of birth, district, mobile
-- `SingleProfileActivity`: full details with **Edit** and **Delete**
-- Full CRUD (create, read, update, delete) on a Room database
+## What the job asks for
 
-## Project structure
-```text
-app/src/main/java/com/example/userprofileregistration/
-├── UserProfile.kt            # @Entity (id, name, email, dob, district, mobile)
-├── UserProfileDao.kt         # @Insert @Update @Delete @Query
-├── UserDatabase.kt           # RoomDatabase singleton
-├── UserProfileRepository.kt
-├── UserProfileViewModel.kt
-├── WelcomeActivity.kt
-├── ProfileListActivity.kt  + ProfileAdapter.kt
-├── AddProfileActivity.kt
-└── SingleProfileActivity.kt
-```
+- WelcomeActivity as launcher
+- ProfileListActivity with all profiles
+- AddProfileActivity: name, email, date of birth, district, mobile
+- SingleProfileActivity with edit and delete
+- MVVM with Android Jetpack components
 
-## Run it
-1. Open this folder in Android Studio and let Gradle sync.
+## Implementations
+
+This job is built 2 different ways. Every folder is a complete Android Studio project: open it, sync Gradle and run.
+
+| Folder | Name | Approach | Kotlin files | Lines | Gradle |
+|---|---|---|---|---|---|
+| [`v1-room`](v1-room/) | Room | Room Entity, DAO, Database, KSP annotation processing, Repository and ViewModel with LiveData | 10 | 330 | Kotlin DSL |
+| [`v2-sqlite-helper`](v2-sqlite-helper/) | SQLiteOpenHelper | SQLiteOpenHelper, Hand-written CREATE TABLE and queries, Repository and ViewModel | 10 | 399 | Kotlin DSL |
+
+### Room: Room on top of SQLite
+
+Uses the Room persistence library, which generates the SQLite code for you. The modern, recommended approach.
+
+- DAO with insert, update, delete and query methods
+- Database singleton
+- Activities observe LiveData from the ViewModel
+
+Read this if you want the standard Jetpack way to persist data.
+
+### SQLiteOpenHelper: Plain SQLite with no extra libraries
+
+Writes the SQL by hand with SQLiteOpenHelper, ContentValues and cursors, then wraps it in a Repository and ViewModel.
+
+- DatabaseHelper creates the table and implements add, read all, update and delete
+- No Room dependency, only AndroidX and Material
+- Shows exactly what Room generates behind the scenes
+
+Read this if the spec says SQLite literally, or you want to understand what Room hides.
+
+## How to run
+
+1. Open one variant folder in Android Studio and let Gradle sync.
 2. Run on an emulator or device (no internet needed).
-3. Add a profile, open it from the list, then try Edit and Delete.
+3. Add a profile, open it from the list, then try edit and delete.
 
 ## Documents
-- [Specification sheet](docs/specification.pdf)
+
+- [Specification (PDF)](docs/specification.pdf)
 - [AI-agent prompt](docs/ai-agent-prompt.md)
+- Specification pages as images: `docs/spec-pages/`
+
+## Related modules
+
+- Module 2: OOP and Design Patterns
+- Module 3: Android Basics
+- Module 4: Managing Database

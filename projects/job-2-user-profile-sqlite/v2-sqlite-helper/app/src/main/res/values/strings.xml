@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">UserProfileRegistration</string>
+    <string name="welcome_title">User Profile Registration</string>
+    <string name="profile_list">Profile List</string>
+    <string name="add_profile">Add Profile</string>
+    <string name="total_profiles">Total Profiles: %1$d</string>
+    <string name="name_hint">Name</string>
+    <string name="email_hint">Email</string>
+    <string name="dob_hint">Date of Birth</string>
+    <string name="district_hint">District</string>
+    <string name="mobile_hint">Mobile</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="name_label">Name: %1$s</string>
+    <string name="email_label">Email: %1$s</string>
+    <string name="dob_label">DOB: %1$s</string>
+    <string name="district_label">District: %1$s</string>
+    <string name="mobile_label">Mobile: %1$s</string>
+</resources>

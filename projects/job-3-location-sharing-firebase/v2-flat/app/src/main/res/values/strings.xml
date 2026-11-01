@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LocationSharingApp</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="my_profile">My Profile</string>
+    <string name="update_name">Update Name</string>
+    <string name="display_name">Display Name</string>
+    <string name="latitude">Latitude: </string>
+    <string name="longitude">Longitude: </string>
+    <string name="email_label">Email: %1$s</string>
+    <string name="menu_my_profile">My Profile</string>
+    <string name="menu_show_map">Show users on Map</string>
+    <string name="menu_logout">Logout</string>
+</resources>

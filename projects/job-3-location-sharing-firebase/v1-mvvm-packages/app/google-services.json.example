@@ -8,13 +8,9 @@
     {
       "client_info": {
         "mobilesdk_app_id": "1:YOUR_PROJECT_NUMBER:android:YOUR_APP_ID",
-        "android_client_info": {
-          "package_name": "com.example.locationsharingapp"
-        }
+        "android_client_info": { "package_name": "com.example.locationsharingapp" }
       },
-      "api_key": [
-        { "current_key": "YOUR_FIREBASE_API_KEY" }
-      ]
+      "api_key": [ { "current_key": "YOUR_FIREBASE_API_KEY" } ]
     }
   ],
   "configuration_version": "1"

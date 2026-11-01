@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GeoConnect</string>
+    <string name="title_login">Welcome Back</string>
+    <string name="title_register">Create Account</string>
+    <string name="subtitle_auth">Real-time presence and location insights</string>
+    <string name="label_email">Email Address</string>
+    <string name="label_password">Password</string>
+    <string name="label_name">Full Name</string>
+    <string name="btn_login">Sign In</string>
+    <string name="btn_register">Sign Up</string>
+    <string name="btn_switch_register">New here? Create an account</string>
+    <string name="btn_switch_login">Have an account? Sign in here</string>
+    <string name="title_friends">Connections</string>
+    <string name="title_profile">Account Settings</string>
+    <string name="btn_map">Explore Map</string>
+    <string name="btn_profile">Profile</string>
+    <string name="btn_logout">Sign Out</string>
+    <string name="btn_update_location">Sync Location</string>
+    <string name="btn_save_profile">Update Profile</string>
+    <string name="default_web_client_id">983163613858-dummyclientid.apps.googleusercontent.com</string>
+</resources>

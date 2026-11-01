@@ -1,46 +1,63 @@
-# Job 1: Product Listing App (REST API)
+# Job 1: Product Listing
 
-An Android app that downloads a product list from a public REST API and shows it in a scrolling list with images, with proper loading, error and retry states.
+**Consume a REST API** &middot; assessment time: 1 hour
 
-| | |
-|---|---|
-| **Time in assessment** | 1 hour |
-| **Language / UI** | Kotlin, XML layouts |
-| **Libraries** | Retrofit 2 + Gson converter, Glide, RecyclerView, CardView |
-| **API** | `https://api.escuelajs.co/api/v1/products` (fallback: `https://fakeapi.platzi.com/en/rest/products`) |
-| **Related modules** | 1 Kotlin, 3 Android basics, 5 API integration |
+Download a product list from a public REST API and show it in a scrolling list with images, with loading, error and retry states.
 
-## Features
-- `ProductActivity` with a `RecyclerView` and a custom row layout (`item_product.xml`)
-- Retrofit `ApiService` returns `List<Product>`, parsed automatically by Gson
-- Glide loads and caches the product images
-- Progress bar while loading; error panel with a **Retry** button when the request fails (for example no internet)
-- `INTERNET` permission in the manifest
+## What the job asks for
 
-## Project structure
-```text
-app/src/main/java/com/example/zaffar_1227_rest01/
-├── ProductActivity.kt      # screen, loading / error / content states, retry
-├── ProductAdapter.kt       # RecyclerView adapter
-├── api/
-│   ├── ApiService.kt       # GET products
-│   └── RetrofitInstance.kt # Retrofit singleton (base URL + Gson)
-└── models/
-    ├── Product.kt
-    └── Category.kt
-```
+- Project named Name_ID_REST01
+- ProductActivity matching the wireframe
+- REST client and image-loading library
+- Parse the JSON and bind it to RecyclerView rows
+- INTERNET permission
+- Handle connectivity and implement Retry
 
-## Run it
-1. Open this folder in Android Studio and let Gradle sync.
-2. Run on an emulator or device that has internet access.
-3. To test the error state: enable airplane mode, relaunch, then disable it and tap **Retry**.
+API used: `https://api.escuelajs.co/api/v1/products`
+
+## Implementations
+
+This job is built 2 different ways. Every folder is a complete Android Studio project: open it, sync Gradle and run.
+
+| Folder | Name | Approach | Kotlin files | Lines | Gradle |
+|---|---|---|---|---|---|
+| [`v1-packaged`](v1-packaged/) | Packaged | api/ and models/ packages, RetrofitInstance singleton, Glide in the adapter | 6 | 164 | Kotlin DSL |
+| [`v2-compact`](v2-compact/) | Compact | Flat package, Retrofit built inside the Activity, Glide in the adapter | 4 | 157 | Kotlin DSL |
+
+### Packaged: Separated network layer
+
+The API client lives in its own package, away from the screen. The cleanest of the two to read and extend.
+
+- ApiService and RetrofitInstance are separate from ProductActivity
+- Product and Category models in their own package
+- Progress bar, error panel and a working Retry button
+
+Read this if you want to see how to keep networking out of the Activity.
+
+### Compact: Assessment-ready, minimal files
+
+Follows the specification naming exactly (name_id_rest01) with the fewest files. Built to be reproduced inside the one-hour limit.
+
+- Four Kotlin files in one package
+- Retrofit enqueue callback with success and failure paths
+- Loading, error and Retry handled in a few small functions
+
+Read this if you need the quickest path that still satisfies every line of the spec.
+
+## How to run
+
+1. Open one variant folder in Android Studio and let Gradle sync.
+2. Run on an emulator or a device with internet access.
+3. To see the error state, turn on airplane mode, relaunch, then turn it off and tap Retry.
 
 ## Documents
-- [Specification sheet](docs/specification.pdf)
-- [AI-agent prompt](docs/ai-agent-prompt.md): the prompt that describes the full job (MVVM, DiffUtil, connectivity check)
 
-## Practice ideas
-This solution keeps things simple with callbacks inside the Activity. Good exercises:
-- Refactor to **MVVM** (`ViewModel` + `LiveData` + Repository) as the prompt describes.
-- Check connectivity with `ConnectivityManager` before calling the API (needs `ACCESS_NETWORK_STATE`).
-- Use `DiffUtil`/`ListAdapter` and add a product detail screen.
+- [Specification (PDF)](docs/specification.pdf)
+- [AI-agent prompt](docs/ai-agent-prompt.md)
+- Specification pages as images: `docs/spec-pages/`
+
+## Related modules
+
+- Module 1: Kotlin Basics
+- Module 3: Android Basics
+- Module 5: API Integration
